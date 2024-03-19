@@ -1,5 +1,7 @@
 # Sign-up-Form-TOP-6
 
+A simple registration form that prevents entering incorrect data.
+
 ## Assignment
 
 ### Step 1: Set up and planning
