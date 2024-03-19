@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.webp">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Sign-up Form</title>
+</head>
+
+<body>
+    <div class="image">
+        <img src="images/header-image.jpg" alt="night sky, grass and tree">
+        <h1>FAKE FORM</h1>
+        <p>Photo by Nadiia Ploshchenko</p>
+    </div>
+    <div class="main">
+        <div class="header">
+            <p>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams.</p>
+            <p>Sign up <i>now</i> to get started.</p>
+            <p>You <i>know</i> you want to.</p>
+        </div>
+        <form id="form">
+            <div class="form-inputs">
+                <h2>Let's do this!</h2>
+                <div class="form-columns">
+                    <div class="form-column">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" minlength="1" placeholder="Sam" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="you@example.com" required>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" minlength="4" maxlength="24" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" minlength="1" placeholder="Smith" required>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="text" name="phone-number" id="phone-number" minlength="7" maxlength="15"
+                            pattern="[0-9]*" placeholder="1234567890" required>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="4"
+                            maxlength="24" required>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" id="submit-btn" value="Create Account">
+            <p>Already have an account? <span>Log in</span></p>
+        </form>
+    </div>
+</body>
+
+</html>
